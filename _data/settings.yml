@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: Atega
+title: Joseph Wood
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Creative personal blog theme for Jekyll
+description: Employee Trainer and Lifelong Learner
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -14,8 +14,6 @@ menu__settings:
       url: "/about/"
     - title: "Contact"
       url: "/contact/"
-    - title: "Elements"
-      url: "/elements/"
     - title: "Pages"
       submenu:
       - url: "/if-you-cannot-do-great-things-do-small-things-in-a-great-way/"
@@ -27,9 +25,9 @@ menu__settings:
 #-------------------------------
 # Author Settings
 author:
-  author__name: Victoria Nayda
-  author__avatar: "/images/01-1.jpg"
-  author__bio: I'm a product designer who's passionate about bringing projects to life! I love learning new things and jumping headfirst into solving problems.
+  author__name: Joseph Wood
+  author__avatar: "images/01.jpg"
+  author__bio: I'm a technical trainer that helps employees to become more productive.
 
 
 #-------------------------------
@@ -73,9 +71,9 @@ links__item:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hi, I'm <span>Victoria Nayda</span>. # Wrap text in a <span></span> tag to highlight and underline text.
-  hero__job: Designer, Illustrator
-  hero__description: I spend a lot of time creating cool things
+  hero__title: Hi, I'm <span>Joseph</span>. # Wrap text in a <span></span> tag to highlight and underline text.
+  hero__job: Trainer, IT
+  hero__description: I teach people to be more productive
   hero__button__text: Read about my past
   hero__button__link: "/about/"
   hero__image: "/images/01.jpg"
@@ -105,7 +103,7 @@ gallery:
 #-------------------------------
 # Newsletter
 mailchimp:
-  enable: true
+  enable: false
   mailchimp__title: Subscribe to new posts # Add your Title
   mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
   mailchimp__identifier: "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
@@ -115,12 +113,9 @@ mailchimp:
 #-------------------------------
 # Social Icons Settings
 social:
-- {icon: "ion-logo-twitter", name: "Twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-github", name: "Github", link: "https://github.com"}
-- {icon: "ion-logo-youtube", name: "Youtube", link: "https://youtube.com"}
-- {icon: "ion-logo-pinterest", name: "Pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-codepen", name: "Codepen", link: "https://codepen.io"}
-- {icon: "ion-logo-vimeo", name: "Vimeo", link: "https://vimeo.com"}
+- {icon: "ion-logo-twitter", name: "Twitter", link: "https://twitter.com/josephmwood"}
+- {icon: "ion-logo-github", name: "Github", link: "https://github.com/ithinkiamjoseph"}
+- {icon: "ion-logo-instagram", name: "Instagram", link: "https://instagram.com/photosbywoody"}
 
 # Example of adding a new link to the author section and footer: - {icon: "ion-logo-dribbble", name: "Dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
